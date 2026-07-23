@@ -22,3 +22,6 @@ A continuación se detallan las pruebas realizadas que demuestran el correcto fu
 8. **Protección de rutas:** No es posible acceder a `/servicios` sin autenticación gracias al middleware `auth`.
 
 *(Nota para el alumno: Adjuntar capturas de pantalla de las vistas aquí antes de enviar el enlace al docente)*
+
+---
+*Desarrollo completo realizado siguiendo los requerimientos del examen práctico.*
