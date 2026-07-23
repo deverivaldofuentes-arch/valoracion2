@@ -13,7 +13,7 @@ Este proyecto es un sistema de autenticación manual y un módulo de Servicios p
 A continuación se detallan las pruebas realizadas que demuestran el correcto funcionamiento del sistema:
 
 1. **El Login es la primera pantalla:** Al ingresar a `http://127.0.0.1:8000`, el sistema redirige automáticamente a la vista de Login en lugar de `welcome.blade.php`.
-2. **Existen al menos dos usuarios:** Se crearon `User One (user1@test.com)` y `User Two (user2@test.com)` con contraseñas encriptadas con Hash.
+2. **Existen al menos dos usuarios:** Se crearon `User One (user1@test.com)` y `User Two (user2@test.com)` con contraseñas encriptadas con Hash. (Contraseña para ambos: `123123`)
 3. **Ambos usuarios pueden iniciar sesión:** Funciona el inicio de sesión manual para ambos usuarios.
 4. **Cada usuario registra servicios:** Desde el formulario en `/servicios/create`, el usuario puede registrar un servicio.
 5. **Los servicios se almacenan en la base de datos:** El registro en PostgreSQL es exitoso.
