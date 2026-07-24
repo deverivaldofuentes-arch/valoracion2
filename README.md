@@ -1,1 +1,1 @@
-**Existen al menos dos usuarios:** Se crearon `User One (user1@test.com)` y `User Two (user2@test.com)` contraseña 123123
+**Existen al menos dos usuarios:** Se crearon `User Uno (user1@test.com)` y `User Dos (user2@test.com)` contraseña 123123
