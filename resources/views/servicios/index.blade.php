@@ -55,7 +55,7 @@
                     @forelse($servicios as $servicio)
                         <tr>
                             <td>{{ $servicio->nombre }}</td>
-                            <td>${{ number_format($servicio->precio, 2) }}</td>
+                            <td>Bs {{ number_format($servicio->precio, 2, ',', '.') }}</td>
                             <td>
                                 <span class="badge bg-info text-dark">{{ $servicio->estado }}</span>
                             </td>
